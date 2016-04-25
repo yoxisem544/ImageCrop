@@ -14,6 +14,10 @@
 		63439FC41CCE15F300D82DA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63439FC21CCE15F300D82DA7 /* LaunchScreen.storyboard */; };
 		63439FCF1CCE15F300D82DA7 /* ImageCropTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63439FCE1CCE15F300D82DA7 /* ImageCropTests.swift */; };
 		63439FDA1CCE15F300D82DA7 /* ImageCropUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63439FD91CCE15F300D82DA7 /* ImageCropUITests.swift */; };
+		63439FEA1CCE163700D82DA7 /* ImageCropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63439FE91CCE163700D82DA7 /* ImageCropViewController.swift */; };
+		63439FEC1CCE1A7700D82DA7 /* TransparentHoleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63439FEB1CCE1A7700D82DA7 /* TransparentHoleView.swift */; };
+		63439FEE1CCE1DA100D82DA7 /* maxresdefault.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63439FED1CCE1DA100D82DA7 /* maxresdefault.jpg */; };
+		63439FF01CCE279600D82DA7 /* 420_135a8cdf96ee535afd31b15e602347b2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63439FEF1CCE279600D82DA7 /* 420_135a8cdf96ee535afd31b15e602347b2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		63439FD51CCE15F300D82DA7 /* ImageCropUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageCropUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63439FD91CCE15F300D82DA7 /* ImageCropUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCropUITests.swift; sourceTree = "<group>"; };
 		63439FDB1CCE15F300D82DA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63439FE91CCE163700D82DA7 /* ImageCropViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCropViewController.swift; sourceTree = "<group>"; };
+		63439FEB1CCE1A7700D82DA7 /* TransparentHoleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransparentHoleView.swift; sourceTree = "<group>"; };
+		63439FED1CCE1DA100D82DA7 /* maxresdefault.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maxresdefault.jpg; sourceTree = "<group>"; };
+		63439FEF1CCE279600D82DA7 /* 420_135a8cdf96ee535afd31b15e602347b2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 420_135a8cdf96ee535afd31b15e602347b2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +105,13 @@
 		63439FB81CCE15F300D82DA7 /* ImageCrop */ = {
 			isa = PBXGroup;
 			children = (
+				63439FEB1CCE1A7700D82DA7 /* TransparentHoleView.swift */,
 				63439FB91CCE15F300D82DA7 /* AppDelegate.swift */,
+				63439FE91CCE163700D82DA7 /* ImageCropViewController.swift */,
 				63439FBB1CCE15F300D82DA7 /* ViewController.swift */,
 				63439FBD1CCE15F300D82DA7 /* Main.storyboard */,
+				63439FED1CCE1DA100D82DA7 /* maxresdefault.jpg */,
+				63439FEF1CCE279600D82DA7 /* 420_135a8cdf96ee535afd31b15e602347b2.jpg */,
 				63439FC01CCE15F300D82DA7 /* Assets.xcassets */,
 				63439FC21CCE15F300D82DA7 /* LaunchScreen.storyboard */,
 				63439FC51CCE15F300D82DA7 /* Info.plist */,
@@ -230,6 +242,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				63439FC41CCE15F300D82DA7 /* LaunchScreen.storyboard in Resources */,
+				63439FEE1CCE1DA100D82DA7 /* maxresdefault.jpg in Resources */,
+				63439FF01CCE279600D82DA7 /* 420_135a8cdf96ee535afd31b15e602347b2.jpg in Resources */,
 				63439FC11CCE15F300D82DA7 /* Assets.xcassets in Resources */,
 				63439FBF1CCE15F300D82DA7 /* Main.storyboard in Resources */,
 			);
@@ -256,6 +270,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63439FEA1CCE163700D82DA7 /* ImageCropViewController.swift in Sources */,
+				63439FEC1CCE1A7700D82DA7 /* TransparentHoleView.swift in Sources */,
 				63439FBC1CCE15F300D82DA7 /* ViewController.swift in Sources */,
 				63439FBA1CCE15F300D82DA7 /* AppDelegate.swift in Sources */,
 			);
